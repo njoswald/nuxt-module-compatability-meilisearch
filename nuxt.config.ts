@@ -11,7 +11,6 @@ export default defineNuxtConfig({
   experimental: { appManifest: false },
 
   meilisearch: {
-      // Not needed for reproduction. It will show "[nitro] [uncaughtException] The provided host is not valid." if not provided.
       hostUrl: 'https://edge.meilisearch.com',
 
       // Comment out 'nuxt-security' or the 'serverSideUsage' line to make error go away.
